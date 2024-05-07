@@ -1,11 +1,19 @@
+<script setup lang="ts">
+import { defineProps } from 'vue'
+
+const props = defineProps<{
+  isOpen: boolean
+}>()
+</script>
+
 <template>
   <svg
-    v-if="!props.isOpen"
-    class="h-6 w-6"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6"
+    v-if="!props.isOpen"
   >
     <path
       stroke-linecap="round"
@@ -15,12 +23,12 @@
     ></path>
   </svg>
   <svg
-    v-else
-    class="h-6 w-6"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6"
+    v-else
   >
     <path
       stroke-linecap="round"
@@ -30,11 +38,3 @@
     ></path>
   </svg>
 </template>
-
-<script setup lang="ts">
-import { defineProps } from 'vue'
-
-const props = defineProps<{
-  isOpen: boolean
-}>()
-</script>
