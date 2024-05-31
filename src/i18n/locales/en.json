@@ -12,5 +12,6 @@
   "to": "To",
   "value": "Value",
   "gas_price": "Gas Price",
+  "live_transactions": "Live Transactions",
   "error": "Error"
 }

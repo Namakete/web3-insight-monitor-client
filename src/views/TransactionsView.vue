@@ -40,7 +40,7 @@ const updateWallet = async (newWallet: string) => {
 
       <div class="flex items-center space-x-3 mt-10">
         <ServerStatusComponent />
-        <h1>Live Transactions</h1>
+        <h1>{{ $t('live_transactions') }}</h1>
       </div>
 
       <div v-if="loading">
