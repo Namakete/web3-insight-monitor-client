@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.link-hover {
-  @apply cursor-pointer text-gray-500 hover:text-black;
+html,
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-gradient-x {
+  background: linear-gradient(270deg, #1c1c1c, #373737);
+  background-size: 400% 400%;
+}
+
+.animate-gradient-x {
+  animation: gradient-x 3s ease infinite;
 }

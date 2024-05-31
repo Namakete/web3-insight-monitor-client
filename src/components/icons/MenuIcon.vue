@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
+interface IconState {
+  isOpen: boolean;
+}
 
-const props = defineProps<{
-  isOpen: boolean
-}>()
+const props = defineProps<IconState>();
 </script>
 
 <template>

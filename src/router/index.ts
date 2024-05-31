@@ -1,16 +1,21 @@
-import { createRouter, createWebHistory } from 'vue-router'
-
-import HomeView from '../views/HomeView.vue'
+import NoFoundView from '@/views/NoFoundView.vue';
+import TransactionsView from '@/views/TransactionsView.vue';
+import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
-    }
-  ]
-})
+      name: 'Transactions',
+      component: TransactionsView,
+    },
+    {
+      path: '/:catchAll(.*)',
+      name: 'NotFound',
+      component: NoFoundView,
+    },
+  ],
+});
 
-export default router
+export default router;

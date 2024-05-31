@@ -1,3 +1,16 @@
 {
-  "title": "Web3 Insight Monitor"
+  "title": "Web3 Insight Monitor",
+  "search": "Search by address / e.g. 0x6d98053f498451BEC79",
+  "all_rights_reserved": "ALL RIGHTS RESERVED",
+  "back_home": "Back Home",
+  "no_transactions_found": "No transactions found",
+  "transaction_hash": "Transaction Hash",
+  "status": "Status",
+  "block": "Block",
+  "date_time_utc": "Date Time (UTC)",
+  "from": "From",
+  "to": "To",
+  "value": "Value",
+  "gas_price": "Gas Price",
+  "error": "Error"
 }

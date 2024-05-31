@@ -1,10 +1,10 @@
-import { URL, fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
+import { URL, fileURLToPath } from 'node:url'
 
-import VueDevTools from 'vite-plugin-vue-devtools'
 import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
-import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite'
+import VueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   plugins: [
