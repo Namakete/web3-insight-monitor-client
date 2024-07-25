@@ -29,10 +29,11 @@ A user application that allows tracking transactions occurring in the blockchain
 2. Install Dependencies `npm install`
 3. Environment variables: touch `.env.local` to get data from the blockchain
 
-  ```bash
-  # https://etherscan.io/
-  ETHEREUM_API_KEY=
+     ```bash
+     # https://etherscan.io/
+     ETHEREUM_API_KEY=
+   
+     # You can add another blockchain API...
+     ```
 
-  # You can add another blockchain API...
-  ```
  4. Start Developing: `npm run start`
