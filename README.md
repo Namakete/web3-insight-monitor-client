@@ -7,7 +7,9 @@ A user application that allows tracking transactions occurring in the blockchain
 **frontend**:
 
 - [Tailwind CSS](https://tailwindcss.com/) (Styling)
-- [vite](https://vitejs.dev/guide/) (Bundler)
+- [Vite](https://vitejs.dev/guide/) (Bundler)
+- [Pinia](https://pinia.vuejs.org/) (State Management)
+- [VueUse](https://vueuse.org/) (Utilities)
 
 ## Getting Started
 
